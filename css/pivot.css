@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px)  {
+
+    .sales_pivot table[class^="cbResultSetTable"] > tbody > tr > td:not(.cbInlineAddFormButtonContainer){
+        width:150px !important;
+        padding: 5px 15px 5px 8px!important;
+        overflow:visible !important;            
+    }
+
+    .sales_pivot table[class^="cbResultSetTable"] > tbody > tr {
+        display:inline-flex !important;
+    }
+
+    .sales_pivot table[class^="cbResultSetTable"]{
+        overflow-x:scroll !important;
+    }
+
+    .sales_pivot table[class^="cbResultSetTable"] > tbody {
+        display:inline-block !important;
+    }
+
+    .sales_pivot .cbResultSetHeaderCell {
+        width:50% !important;
+    }
+
+    .sales_pivot{
+        overflow: scroll;
+    }
+
+}

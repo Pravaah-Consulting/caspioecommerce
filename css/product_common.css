@@ -1,0 +1,18 @@
+.cb-search-container .cbSubmitButtonContainer{
+    display: none!important;
+}
+[class*="cbBackButtonContainer"] {
+  display: none!important;
+}
+[class*="cbFormBlock4"]{
+    text-align: center!important;
+}
+
+@media (max-width: 1024px) {
+    .cbFormSelect{
+      height: 40px!important;
+    }
+  }
+  
+
+
